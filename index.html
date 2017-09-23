@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cyrstals Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+	<audio  loop>
+		<source src="assets/Bag_Raiders_-_Shooting_Stars.mp3" type="audio/mp3">
+	</audio>
+	<header>
+		<div id="title">
+			<h1>CrystalsCollector!</h1>
+		</div>
+	</header>
+	<div id="info">
+		<p>You will be given a random number at the start of the game.</p>
+		<br><br>
+		<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score goes above the random number.</p>
+		<br><br>
+		<p>The value of each crystal is hidden from you until you click on it.</p>
+		<br><br>
+		<p>Each time when the game starts, the game will change the values of each crystal.</p>
+	</div>
+	<div id="parent">
+		<div id="random"></div>
+		<div id="win-loss"></div>
+	</div>
+	<div id="jewels">
+		<ul>
+			<li class="jewel" id="red"><img src="assets/images/red.png"></li>
+			<li class="jewel" id="blue"><img src="assets/images/blue.png"></li>
+			<li class="jewel" id="yellow"><img src="assets/images/yellow.png"></li>
+			<li class="jewel" id="green"><img src="assets/images/green.png"></li>
+		</ul>
+	</div>
+	<div id="score">
+		<p>Your total score is:</p>
+	</div>
+	<div id="sum">0</div>
+
+	<!-- Jquery -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- Javascript -->
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

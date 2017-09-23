@@ -1,0 +1,84 @@
+#title {
+	background: #C97128;
+	color: white;
+	text-align: center;
+	font-size: 38px;
+	font-family: 'Georgia';
+	width: 300px;
+	padding: 20px 5px 20px 5px;
+	margin: 10px;
+	text-shadow: 0 0 3px black;
+}
+
+body {
+	background-image: url('../images/nyan-gif-original.gif');
+}
+
+#info {
+	background: #f0f296;
+	color: #3ebc4d;
+	width: 450px;
+	height: 500px;
+	font-size: 18px;
+	font-family: cursive;
+	line-height: initial;
+	margin: 10px;
+	padding: 15px;
+}
+
+#parent {
+	display: flex;
+}
+
+#random {
+	background: #3ebc4d;
+	font-size: 38px;
+	color: #7d069e;
+	width: 250px;
+	height: 150px;
+	margin: 10px;
+	margin-top: 2px;
+}
+
+#win-loss {
+	background: #4BFDFE;
+	width: 100px;
+	height: 150px;
+	margin-top: 2px;
+}
+
+ul {
+	display: inline-block;
+	margin: 10px;
+}
+
+li {
+	display: inline-block;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#score {
+	background: #2CA296;
+	color: white;
+	font-family: cursive;
+	font-size: 16px;
+	width: 240px;
+	height: 20px;
+	margin: 0 0 5px 10px;
+	padding: 5px;
+}
+
+#sum {
+	background: #2CA296;
+	color: white;
+	font-size: 38px;
+	width: 250px;
+	height: 150px;
+	margin: 10px;
+	margin-top: 2px;
+}
+}
